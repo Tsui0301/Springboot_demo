@@ -33,6 +33,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<!--        必须添加的Spring 注入依赖-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
