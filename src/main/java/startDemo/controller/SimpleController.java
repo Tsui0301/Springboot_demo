@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @ResponseBody
-public class TestController {
+public class SimpleController {
 
     @Autowired
     TestService testService;
