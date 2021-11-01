@@ -60,5 +60,17 @@
             <version>1.1.8</version>
         </dependency>
 
+
+
+
+<!--以下非必须依赖-->
+        <!--       JSONObject js = new JSONObject()
+                    js.put("codeo","1");
+<!--         发送给前台Json格式&ndash;&gt;-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
     </dependencies>
 </project>
