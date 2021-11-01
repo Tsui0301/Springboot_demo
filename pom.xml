@@ -11,6 +11,8 @@
     <name>Springboot_demo</name>
     <description>Springboot_demoaaaaa</description>
 
+<!--打包成War包-->
+    <!--    <packaging>war</packaging>-->
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -64,13 +66,34 @@
 
 
 <!--以下非必须依赖-->
-        <!--       JSONObject js = new JSONObject()
-                    js.put("codeo","1");
+<!--             JSONObject js = new JSONObject()-->
+<!--                    js.put("codeo","1");-->
 <!--         发送给前台Json格式&ndash;&gt;-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
+
+<!--        实体类注解@Data-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
+
+
+
+    <!--    项目打包-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>startDemo.MainApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
