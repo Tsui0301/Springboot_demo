@@ -1,5 +1,7 @@
 package startDemo.pojo;
 import java.sql.*;
+
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
    /**
@@ -12,6 +14,7 @@ import lombok.Data;
 
 
 @Data
+@TableName("member")
 public class Member{
 	private Integer id;
 	private String name;

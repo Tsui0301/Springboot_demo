@@ -49,6 +49,13 @@
             <version>3.5.1</version>
         </dependency>
 
+        <!--Mybatis-plus代码生成器-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+
 
         <!--        4.0 mysql连接依赖-->
         <dependency>
@@ -82,6 +89,10 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
+
+
+
 
 
 
